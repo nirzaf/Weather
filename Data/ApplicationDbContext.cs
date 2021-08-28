@@ -12,5 +12,7 @@ namespace Weather.Data
             : base(options)
         {
         }
+
+        private DbSet<Weather> Weather { get; set; }
     }
 }
