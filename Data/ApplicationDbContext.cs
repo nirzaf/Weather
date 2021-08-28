@@ -10,6 +10,6 @@ namespace Weather.Data
         {
         }
 
-        private DbSet<Weather> Weather { get; set; }
+        public DbSet<Weather> Weather { get; set; }
     }
 }
